@@ -17,8 +17,8 @@
     "test": "expo-module test",
     "lint": "prettier -c 'src/**/*.js'",
     "lint:fix": "prettier -w 'src/**/*.js'",
-    "ci": "yarn lint",
-    "prepare": "yarn run build:constants"
+    "ci": "npm run lint",
+    "prepare": "npm run build:constants"
   },
   "standard": {
     "parser": "babel-eslint"
